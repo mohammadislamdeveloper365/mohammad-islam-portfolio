@@ -12,8 +12,18 @@ body {
     margin: 0;
 }
 
+#portfolio-main-section {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:10rem 8rem; 
+}
+
 #portfolio-main-section--description {
-    padding: 16rem 8rem; 
     color: white;
-    width:60%;
+    max-width:800px; 
+}
+
+#portfolio-main-section--image img{
+    border-radius: 50%;
 }
