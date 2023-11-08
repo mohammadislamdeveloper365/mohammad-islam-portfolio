@@ -28,8 +28,17 @@ body {
     color:rgb(159, 203, 242);
     font-size: 1.5rem;
     padding:8px;
+    cursor: pointer;
+    text-align: center;
 }
 
+#portfolio-header--navbar > li >a:hover {
+    color:white;
+}
+
+#portfolio-header--navbar > li:hover {
+    background-color: rgb(146, 134, 220);
+}
 #portfolio-header--navbar > li {
     padding:8px;
 }
@@ -37,6 +46,10 @@ body {
     color:rgb(200, 210, 185);
     font-weight: 800;
     font-size: 1.25rem;
+}
+
+.navbar-icon:hover {
+    color:white;
 }
 
 #portfolio-main-section {
