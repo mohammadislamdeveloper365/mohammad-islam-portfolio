@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin:0;
+    padding:0;
 }
 
 :root {
@@ -10,6 +11,32 @@
 body {
     background-color: #192A56;
     margin: 0;
+}
+
+#portfolio-header {
+    padding: 1rem 2rem;
+}
+#portfolio-header--navbar {
+    list-style-type: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+#portfolio-header--navbar > li >a {
+    text-decoration: none;
+    color:rgb(159, 203, 242);
+    font-size: 1.5rem;
+    padding:8px;
+}
+
+#portfolio-header--navbar > li {
+    padding:8px;
+}
+.navbar-icon {
+    color:rgb(200, 210, 185);
+    font-weight: 800;
+    font-size: 1.25rem;
 }
 
 #portfolio-main-section {
