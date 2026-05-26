@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mohammad Islam Portfolio</title>
-    <link rel="stylesheet" href="./css/library.css">
-    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Playpen+Sans:wght@700&display=swap"
         rel="stylesheet">
@@ -14,31 +14,47 @@
     <script type="module" src="./javascript/index.js" defer></script>
 </head>
 
-<body>
-    <header id="portfolio-header">
-        <ul id="portfolio-header--navbar">
-            <li><a href="#">Home <i class="fa-solid fa-house navbar-icon"></i></a></li>
-            <li><a href="#" target="_blank">About Me</a></li>
-            <li><a href="#" target="_blank">Resume <i class="fa-solid fa-file navbar-icon"></i></a></li>
-            <li><a href="#" target="_blank">Work <i class="fa-solid fa-briefcase navbar-icon"></i></a></li>
-        </ul>
-    </header>
-    <main id="portfolio-main-section">
-        <div id="portfolio-main-section--description">
-            <p class="m-y-1 secondary-font">Hi, I am</p>
-            <h1 class="m-y-1 header-font">Mohammad Moinul Islam</h1>
-            <p class="m-y-1 secondary-font">Software Engineer</p>
-            <p class="m-y-1 header-font">I build things for the web</p>
-            <p class="m-y-1 secondary-font">I am a software engineer who is specialized in building as well as designing
-                exceptional applications and websites for the web.</p>
-            <button class="transparent-btn" id='contact-btn'>
-                Get in touch
-            </button>
+<body class="bg-primary">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+        <div class="container-fluid">
+            <!-- Links -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Work</a>
+                </li>
+            </ul>
         </div>
-        <div id="portfolio-main-section--image">
-            <img src="./resources/developer.jpg" alt="developer image" id="portfolio-main-section--image">
-        </div>
-    </main>
+
+    </nav>
+    <div class="container">
+        <main class="text-bg-primary">
+            <div class="text-center">
+                <p class="h3">Hi, I am</p>
+                <h1>Mohammad Moinul Islam</h1>
+                <p class="h3">Software Engineer</p>
+                <p class="h3">I build things for the web</p>
+                <p class="h3">I am a software engineer who is specialized in building as well as
+                    designing
+                    exceptional applications and websites for the web.</p>
+                <button class="btn btn-success mt-3 mb-3" id='contact-btn'>
+                    Get in touch
+                </button>
+            </div>
+            <div>
+                <img src="./resources/developer.jpg" alt="developer image" class="d-block mx-auto">
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
